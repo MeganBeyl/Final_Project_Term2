@@ -26,6 +26,7 @@ nav{
     width:80%;
     height:40px;
     float:left;
+    margin:5px;
 }
 
 .nav-con ul{
@@ -39,6 +40,7 @@ nav{
     font-size:15px;
     color:black;
     background-color: grey;
+    margin:6px;
 }
 
 .nav-con li:hover{
@@ -51,6 +53,7 @@ nav{
     height:35px;
     float:right;
     border-radius:60%;
+    margin:5px;
 }
 
 h2{
@@ -77,17 +80,33 @@ header h2{
 
 .col-12{
     width:100%;
-    height: 300px;
+    height: 100px;
     background-color: gray;
+}
+
+.col-8{
+    width:100%;
+    height:250px;
+    background-color: gray;
+    margin:5px;
 }
 .col-6{
     width: 100%;
     height: 250px;
     background-color: lightgray;
+    margin:5px;
 }
 
 .col-3{
     width:100%;
     height: 250px;
     background-color: grey;
+    margin:5px;
+}
+
+.col-2{
+    width:100%;
+    height:250px;
+    background-color: lightgray;
+    margin:5px;
 }
