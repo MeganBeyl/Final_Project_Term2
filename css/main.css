@@ -9,15 +9,17 @@ nav{
 }
 
 .logo{
-    width:200px;
+    width:150px;
     height:150px;
     float:left;
+    
+    
 }
 
 .supersubs{
     width:100%;
-    height:50px;
-    background-image: url("");
+    height:100px;
+    background-image: url("../assets/logo2?.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -35,8 +37,10 @@ nav{
 
 .nav-con li{
     float:left;
+    width:90px;
     height:30px;
     border-radius:5px;
+    text-align:center;
     font-size:15px;
     color:black;
     background-color: grey;
@@ -78,35 +82,349 @@ header h2{
     color:black;
 }
 
+.alert-box{
+    width:60%;
+    height:150px;
+    background-color: forestgreen;
+    color:black;
+    text-align:center;
+    font-size:30px;
+    border-radius:30px;
+    float:right;
+    padding-top: 40px;
+}
+
 .col-12{
-    width:100%;
-    height: 100px;
-    background-color: gray;
+    width:90%;
+    height: 80px;
+    
+}
+
+.col-10{
+    width:80%;
+    height:500px;
+    margin:3px;
+    background-color: aliceblue;
 }
 
 .col-8{
-    width:100%;
-    height:250px;
+    width:80%;
+    height:780px;
     background-color: gray;
+    padding-left:10%;
     margin:5px;
 }
+
 .col-6{
-    width: 100%;
+    width: 45%;
     height: 250px;
-    background-color: lightgray;
     margin:5px;
 }
 
 .col-3{
-    width:100%;
+    width:20%;
     height: 250px;
-    background-color: grey;
-    margin:5px;
+    margin-right:5px;
+    margin-left:10px;
+    margin-top:20px;
+    float:left;
+}
+
+.col-3:hover{
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color:green;
+    cursor:pointer;
 }
 
 .col-2{
-    width:100%;
-    height:250px;
+    width:8%;
+    height:650px;
     background-color: lightgray;
     margin:5px;
 }
+
+.col-1{
+    width:9%;
+    height:500px;
+    background-color: gray;
+    margin:4px;
+}
+
+.hover-subs1{
+    width:100%;
+    height:100%;
+    background-image: url("../assets/Sub\ 2.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hover-subs2{
+    width:100%;
+    height:100%;
+    background-image: url("../assets/Sub\ 3.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hover-subs3{
+    width:100%;
+    height:100%;
+    background-image: url("../assets/Sub\ 4.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hover-subs4{
+    width:100%;
+    height:100%;
+    background-image: url("../assets/Sub\ 5.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hover-subs5{
+    width:100%;
+    height:100%;
+    background-image: url("../assets/Sub\ 6.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hover-subs6{
+    width:100%;
+    height:100%;
+    background-image: url("../assets/Sub\ 7.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hover-subs7{
+    width:100%;
+    height:100%;
+    background-image: url("../assets/Sub\ 8.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hover-subs8{
+    width:100%;
+    height:100%;
+    background-image: url("../assets/Sub\ 9.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.header-info{
+    width:50%;
+    height:200px;
+    margin:5px;
+    background-color: black;
+    color:white;
+    font-size:45px;
+    border-radius:20px;
+}
+
+.header-mini-info{
+    width:25%;
+    height:100px;
+    margin:5px;
+    background-color: black;
+    color:white;
+    font-size:20px;
+    border-radius:20px;
+}
+
+.header-mini-info:hover{
+    background-color: darkcyan;
+    color:black;
+}
+
+.advertisement{
+    width:60%;
+    height:200px;
+    float:right;
+    font-size:35px;
+    text-align:center;
+    color:white;
+    padding-top:35px;
+    padding-left: 25px;
+    margin:5px;
+    background-color: rgb(58, 161, 113);
+    border-radius: 20px;;
+}
+
+.social-media{
+    width:250px;
+    height:50px;
+    float:right;
+    margin:10px;
+}
+
+.social{
+   float:right;
+   padding-left:5px;
+   padding-right:5px; 
+   padding-top:15px;
+}
+
+.social:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+
+.input-elm{
+    float:right;
+    border-radius:50px;
+    padding-left:15px;
+}
+
+form{
+    width:100%;
+    height:520px;
+    background-color: darkgray;
+    text-align:center;
+    border-radius:15px;
+    margin:6px;
+}
+
+select{
+    width:90%;
+    height:100px;
+    margin:10px;
+    border-radius:20px;
+}
+
+button{
+    width:150px;
+    height:70px;
+    border-radius:30px;
+    border-color:black;
+    background-color: rgb(117, 167, 52);
+    float:right;
+    margin:10px;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+.sub-picture{
+    width:80%;
+    height:280px;
+    background-image: url("../assets/Sub\ 10.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius:30px;
+    margin-top:10px;
+}
+
+.sub-name{
+    width:80%;
+    height:50px;
+    font-size:25px;
+    text-align:center;
+    background-color: azure;
+    border-radius:30px;
+    color:black;
+    margin:7px;
+}
+
+.sub-bread{
+    width:80%;
+    height:50px;
+    font-size:25px;
+    text-align:center;
+    background-color: azure;
+    border-radius:30px;
+    color:black;
+    margin:7px;
+}
+
+.sub-sauce1{
+    width:80%;
+    height:50px;
+    font-size:25px;
+    text-align:center;
+    background-color: azure;
+    border-radius:30px;
+    color:black;
+    margin:7px;
+}
+
+.sub-sauce2{
+    width:80%;
+    height:50px;
+    font-size:25px;
+    text-align:center;
+    background-color: azure;
+    border-radius:30px;
+    color:black;
+    margin:7px;
+}
+
+.sub-toppings1{
+    width:80%;
+    height:50px;
+    font-size:25px;
+    text-align:center;
+    background-color: azure;
+    border-radius:30px;
+    color:black;
+    margin:7px;
+}
+
+.sub-toppings2{
+    width:80%;
+    height:50px;
+    font-size:25px;
+    text-align:center;
+    background-color: azure;
+    border-radius:30px;
+    color:black;
+    margin:7px;
+}
+
+.sub-toppings3{
+    width:80%;
+    height:50px;
+    font-size:25px;
+    text-align:center;
+    background-color: azure;
+    border-radius:30px;
+    color:black;
+    margin:7px;
+}
+
+.order-submit{
+    width:150px;
+    height:70px;
+    background-color: black;
+    color:white;
+    border-radius:40px;
+    text-align:center;
+    padding-top:25px;
+}
+
+.order-submit:hover{
+    background-color: green;
+    color:black;
+}
+
+footer{
+    width:100%;
+    height:100px;
+    background-color: black;
+    color:black;
+    text-align:left;
+    font-size:25px;
+    margin-top:30px;
+}
+
+footer p{
+    font-size:20px;
+    padding-top:20px;
+    padding-left:15px;
+}
+
